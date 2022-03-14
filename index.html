@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML class Day-1</title>
+    <!-- internal css -->
+    <style>
+        .container,.header,.nav,.middle,.left,.right,.footer{
+            border: 1px solid red;
+            padding:20px;
+        }
+        .middle{  
+            height: 70px;
+        }
+        .left{
+            float:left;
+        }
+        .right{
+            float:right;
+        }
+        .footer{
+            clear:both;
+        }    
+    </style>
+</head>
+<body>
+    <h1>Hello People</h1>
+    <h2>Hello People</h2>
+    <h3>Hello People</h3>
+    <h4>Hello People</h4>
+    <h5>Hello People</h5>
+    <h6>Hello People</h6>
+
+    <hr>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique illum aliquid maxime voluptatibus quia tempora. Rem, officia! Molestiae numquam consequuntur id iusto dignissimos vitae corrupti saepe excepturi sapiente, assumenda temporibus?
+    Asperiores voluptatem iusto in itaque natus. Architecto, suscipit laboriosam voluptate, tempore provident ex qui earum fugiat excepturi eum, magni facilis neque doloremque non minima possimus illo recusandae impedit itaque ullam?</p>
+
+    <!-- inline tags -->
+    <input type="text">
+    <input type="color"><br>
+    <input type="password">
+
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+
+    <p><i>this is writing for <u>underline</u></i></p>
+
+    <a href="https://www.zenclass.in/class" target="_blank">click here</a>
+    <br>
+    <hr>
+
+    <div id="test" class="container">
+        <div class="header">Header</div>
+        <div class="nav" id="nav">Navigation</div>
+        <div class="middle" id="middle">Middle
+            <div class="left">Left</div>
+            <div class="right">Right</div>
+        </div>
+        <div class="footer">Footer</div>
+    </div>
+
+        <!-- html-5 semantic tags to create a basic layout -->
+        <h1>my website</h1>
+        <main class="container" id="container">
+            <header class="header" id="header">Header</header>
+            <nav class="nav">Navigation</nav>
+            <section class="middle" id="middle">Middle
+            <aside class="left">Left</aside>
+            <aside class="right">Right</aside>
+            </section>
+            <footer class="footer">Footer</footer>
+        </main>       
+
+    </body>
+</html>

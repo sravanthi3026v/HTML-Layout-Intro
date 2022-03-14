@@ -1,0 +1,24 @@
+Day-1 HTML
+
+Shift+!+enter = boilerplate code(default)
+HTML,CSS,Javascript main pillers for development
+HTML=Hyper text markup Languages 
+CSS=cascading style sheet 
+Javascript
+can create static websites using html
+elements or tags
+no html means no web page
+
+h$*6
+
+<hr> = for line (horizontal row)
+
+inline element= which represent the output or display the content from the same line where ur previous text is complited
+blocklevel element= represent new line everytime when user add a content
+
+<span> = with in a tag we can use when you want to add some css
+
+<br>
+
+<a href=""> = for redirect web page using the link (same window)
+<a href="" target="_blank"> = redirect the link web page in new window tab
